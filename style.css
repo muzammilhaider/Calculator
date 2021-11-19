@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #bce99a;
+}
+h2{
+    margin: 20px;
+    font-size: 35px;
+}
+.table-div{
+    width: 46%;
+}
+.inputValue{
+    width: 300px;
+    padding: 8px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.inputValue:focus{
+    outline: none;
+}
+.keys{
+    width: 100%;
+    text-align: center;
+}
+.keys input{
+    width: 61px;
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+    height: 35px;
+    border-radius: 15px;
+    border-color: transparent;
+    outline: none;
+}
+.lastRow{
+    width: 137px !important;
+}
